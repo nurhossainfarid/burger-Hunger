@@ -23,7 +23,7 @@ const Banner = () => {
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
-            delay: 2500,
+            delay: 3000,
             disableOnInteraction: false,
           }}
           pagination={{
@@ -36,8 +36,8 @@ const Banner = () => {
         >
           <SwiperSlide className="relative">
             <img style={{ height: '800px' }} className="w-full parallax-bg" src={Background1} alt="" />
-            <div className="absolute w-2/5 top-48 text-white left-10">
-              <div className="slider-title">
+            <div className="absolute w-2/5 top-48 text-white left-16">
+              <div className="slider-title p-5">
                 <div className="title text-5xl" data-swiper-parallax="-300">
                   Slide 1
                 </div>
@@ -56,12 +56,16 @@ const Banner = () => {
                   </p>
                 </div>
               </div> 
+              <div className="mt-20 flex gap-10 justify-end ">
+                <button class="btn btn-outline border-primary hover:border-none hover:bg-primary text-primary hover:text-white text-3xl">Order</button>
+                <button class="btn btn-outline border-primary hover:border-none hover:bg-primary text-primary hover:text-white text-3xl">View</button>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="relative">
             <img style={{ height: '800px' }} className="w-full" src={Background2} alt="" />
-            <div className="absolute w-2/5 top-48 text-white left-10">
-              <div className="slider-title">
+            <div className="absolute w-2/5 top-48 text-white left-16">
+              <div className="slider-title p-5">
                 <div className="title text-5xl" data-swiper-parallax="-300">
                   Slide 1
                 </div>
@@ -80,12 +84,16 @@ const Banner = () => {
                   </p>
                 </div>  
               </div>
+              <div className="mt-20 flex gap-10 justify-end ">
+                <button class="btn btn-outline border-primary hover:border-none hover:bg-primary text-primary hover:text-white text-3xl">Order</button>
+                <button class="btn btn-outline border-primary hover:border-none hover:bg-primary text-primary hover:text-white text-3xl">View</button>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="relative">
             <img style={{ height: '800px' }} className="w-full" src={Background3} alt="" />
-            <div className="absolute w-2/5 top-48 text-white left-10">
-              <div className="slider-title">
+            <div className="absolute w-2/5 top-48 text-white left-16">
+              <div className="slider-title p-5">
                 <div className="title text-5xl" data-swiper-parallax="-300">
                   Slide 1
                 </div>
@@ -104,12 +112,16 @@ const Banner = () => {
                   </p>
                 </div>
               </div>
+              <div className="mt-20 flex gap-10 justify-end ">
+                <button class="btn btn-outline border-primary hover:border-none hover:bg-primary text-primary hover:text-white text-3xl">Order</button>
+                <button class="btn btn-outline border-primary hover:border-none hover:bg-primary text-primary hover:text-white text-3xl">View</button>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="relative">
             <img style={{ height: '800px' }} className="w-full" src={Background4} alt="" />
-            <div className="absolute w-2/5 top-48 text-white left-10">
-              <div className="slider-title">
+            <div className="absolute w-2/5 top-48 text-white left-16">
+              <div className="slider-title p-5">
                 <div className="title text-5xl" data-swiper-parallax="-300">
                   Slide 1
                 </div>
@@ -127,6 +139,10 @@ const Banner = () => {
                     tincidunt ut libero. Aenean feugiat non eros quis feugiat.
                   </p>
                 </div>
+              </div>
+              <div className="mt-20 flex gap-10 justify-end ">
+                <button class="btn btn-outline border-primary hover:border-none hover:bg-primary text-primary hover:text-white text-3xl">Order</button>
+                <button class="btn btn-outline border-primary hover:border-none hover:bg-primary text-primary hover:text-white text-3xl">View</button>
               </div>
             </div>
           </SwiperSlide>
